@@ -7,7 +7,7 @@ import time
 # -------------------------
 # CONFIGURATION
 # -------------------------
-MONGO_URI = 'mongodb+srv://qeresanjuan:nosdeyar@cluster0.sgf8rsf.mongodb.net/?appName=Cluster0'
+MONGO_URI = # Replace with your mongodb uri
 DB_NAME = 'weather_db'
 COLLECTION_NAME = 'weather_data'
 
@@ -47,3 +47,4 @@ while True:
             st.write("No data available yet.")
     
     time.sleep(REFRESH_INTERVAL)
+
