@@ -21,7 +21,7 @@ def setup_sidebar():
     st.sidebar.text("Using your MongoDB connection for historical data")
     
     return {
-        "mongodb_uri": "mongodb+srv://qeresanjuan:nosdeyar@cluster0.sgf8rsf.mongodb.net/?appName=Cluster0",
+        "mongodb_uri": # Replace with your mongodb uri,
         "database": "weather_db",
         "collection": "weather_data"
     }
@@ -244,3 +244,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
